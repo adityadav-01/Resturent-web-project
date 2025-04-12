@@ -1,0 +1,26 @@
+
+.footer-container {
+    color:white;
+    background-color: #b3672b;
+    display: flex;
+    justify-content:center;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 15px;
+}
+.loc,.cont,.sm,.time{
+    margin: 20px;
+    padding: 10px;
+}
+h4{
+    font-style: oblique;
+}
+.footer-container img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.footer-container img:hover{
+    background-color: white;
+}

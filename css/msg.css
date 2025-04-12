@@ -1,0 +1,56 @@
+.background {
+    background-image: url('/images/msgback.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.message-box {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    margin-bottom: 50px;
+}
+
+.message-box h3 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.message-box textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    color:yellow;
+    background-color: rgb(0,0,0,0.9);
+    margin-bottom: 20px;
+}
+
+.message-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-box button:hover {
+    background-color: #218838;
+}
+

@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, sans-serif;
+}
+.background{
+    background-image: url('/images/contct.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+
+}
+
+p {
+    font-size: 16px;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #9b59b6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.message-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-box:hover , .contact-button:hover {
+    background-color:#ff7a3b;
+}
+
+.message-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+

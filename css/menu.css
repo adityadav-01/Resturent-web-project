@@ -1,0 +1,62 @@
+.background {
+    font-family: Arial, sans-serif;
+    background-image: url('/images/menu.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container {
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+}
+
+.menu-section {
+    width: 35%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-right: 20px;
+}
+
+.menu-section h1, .menu-section h3 {
+    text-align: center;
+}
+
+.menu-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.recommend {
+    background-color: orange;
+    color: white;
+    padding: 2px 2px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+del {
+    color: #ff6347;
+}
+ul {
+    margin-top: 20px;
+}
+.rs{
+    color:yellow;
+}
+li:hover{
+    transform: scale(1.05);
+}
